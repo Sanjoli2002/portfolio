@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjoli Sahu - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+        }
+        .education-item,
+        .project-item,
+        .work-item,
+        .certificate-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+            transition: all 0.3s ease;
+        }
+        .education-item:hover,
+        .project-item:hover,
+        .work-item:hover,
+        .certificate-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .project-item h3,
+        .education-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .project-item p,
+        .education-item p {
+            line-height: 1.6;
+        }
+        .achievement-item {
+            margin-bottom: 10px;
+        }
+        .achievement-item::before {
+            content: "▹ ";
+            color: #28a745;
+        }
+        .certificate-item p {
+            line-height: 1.6;
+        }
+        .languages-item {
+            margin-bottom: 10px;
+        }
+        .languages-item::before {
+            content: "▹ ";
+            color: #007bff;
+        }
+        .languages-item p {
+            line-height: 1.6;
+        }
+        .link-item a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .link-item a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sanjoli Sahu</h1>
+            <p>Computer Science Graduate</p>
+            <p>Highly motivated Computer Science Engineer with hands-on experience in AI and Machine Learning. Proven ability in coding, project management, and collaboration in dynamic environments. Seeking a challenging role in a progressive company to contribute to innovative projects and drive personal and professional growth.</p>
+            <ul class="contact-list">
+                <li>Email: sahusanjoli@gmail.com</li>
+                <li>Phone: 7753806901</li>
+                <li class="link-item"><a href="https://linkedin.com/in/sanjoli-sahu-372524239" target="_blank">LinkedIn</a></li>
+                <li class="link-item"><a href="https://github.com/Sanjoli2002" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>B.Tech in Computer Science (AI & ML)</h3>
+                <p><strong>Dr. A.P.J. Abdul Kalam Technical University</strong></p>
+                <p>08/2020 - 05/2024, CGPA: 8.4</p>
+                <p>Skills: Java/C++, Python, DSA, AI/ML, Docker, HTML/CSS, Spring Boot, Hibernate, SQL, GCP, OpenCV, GIT, JIRA, Servlet/JSP</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate - CBSE</h3>
+                <p><strong>Doon International School</strong></p>
+                <p>04/2019 - 04/2020, Percentage: 86%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="achievement-item">Gserve Remote Mentorship (Google)</div>
+            <div class="achievement-item">Letter of Appreciation for Academics Excellence in 4th semester.</div>
+            <div class="achievement-item">Coordinator in College's Coding Club</div>
+            <div class="achievement-item">Core Member of College Student Placement Cell</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Coin Counter</h3>
+                <p>Developed a coin counting system leveraging computer vision and machine learning techniques to classify and count coins based on their physical properties such as size, shape, and texture.</p>
+                <p>Technologies used: Python, OpenCV, TensorFlow</p>
+            </div>
+            <div class="project-item">
+                <h3>Virtual Tutorial Management System</h3>
+                <p>Designed and developed a comprehensive virtual tutorial management system to deliver educational content and lessons in an online environment.</p>
+                <p>Technologies used: HTML, CSS, JavaScript, Python, Django, SQL</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>AI-ML Intern - Onsite</h3>
+                <p><strong>Nashtech Pvt Ltd</strong></p>
+                <p>01/2024 - 06/2024, Noida, India</p>
+                <p>Developed models for NLP and Object recognition.</p>
+                <p>Integrated and developed models using LLM (Hugging Face).</p>
+                <p>Utilized various MLOps tools including MLrun, MLflow, and Vertex AI.</p>
+                <p>Conducted research and documentation on various ML tools including YOLO, Keras and MLrun.</p>
+                <p>Increased efficiency of trained models by 85% using ML Algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="certificate-item">
+                <p>Google Data Analytics Certificate – Google</p>
+                <p>Foundations of Project Management – Google</p>
+                <p>Certificate of Recognition – iWE Tech Mentoring Program, Goldman Sachs</p>
+                <p>Naïve Bayes Using Python Certificate – Infosys</p>
+                <p>Springboard Python & Problem Solving Certification - HackerRank, Noida, India</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="languages">
+        <div class="container">
+            <h2>Languages</h2>
+            <div class="languages-item">
+                <p>English - Full Professional Proficiency</p>
+            </div>
+            <div class="languages-item">
+                <p>Hindi - Native or Bilingual Proficiency</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
